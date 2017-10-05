@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+button,
+input {
+  outline: none;
+}
 
 
 img {
@@ -17,13 +21,13 @@ img {
 }
 
 
-  .clearfix:after {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-  .wrap {
-    display: flex;
-    justify-content: center;
-  }
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
