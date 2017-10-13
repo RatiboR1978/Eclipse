@@ -476,7 +476,7 @@ img {
   content: '';
   width: 16px;
   height: 16px;
-  background-image: url(../img/svg/bt.svg);
+  background-image: url(../img/bt.svg);
   top: 18px;
   right: 30px; }
 
@@ -542,7 +542,7 @@ img {
   right: 45px;
   width: 13px;
   height: 15px;
-  background-image: url(../img/svg/arrow.svg); }
+  background-image: url(../img/arrow.svg); }
 
 .header__form-but {
   width: 64px;
@@ -559,7 +559,7 @@ img {
   content: '';
   width: 16px;
   height: 16px;
-  background-image: url(../img/svg/bt.svg);
+  background-image: url(../img/bt.svg);
   top: 21px;
   right: 22px; }
 
