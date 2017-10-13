@@ -1,0 +1,43 @@
+.features {
+  padding: 160px 0 152px;
+  text-align: center;
+  h2 {
+    text-transform: uppercase;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 30px;
+    color: #333b42;
+    margin: 0 0 34px;
+  }
+}
+
+.features__wrap {
+  margin-top: 65px;
+  display: flex;
+}
+
+.features__circle {
+  width: 137px;
+  height: 137px;
+  border-radius: 50%;
+  background-color: #8500d2;
+  display: block;
+  margin: 0 auto 38px;
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 49px;
+  }
+}
+
+article{
+  h3 {
+    text-transform: uppercase;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 17px;
+    color: #333b42;
+  }
+  p {
+    line-height: 25px;
+    margin: 0;
+  }
+}

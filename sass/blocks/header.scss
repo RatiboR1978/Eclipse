@@ -2,6 +2,7 @@
   background: url("../img/bgheader.jpg") no-repeat;
   background-size: cover;
   padding: 70px 0 257px 0;
+  position: relative;
 }
 
 .header__menu {
@@ -141,4 +142,20 @@
   background-image: url(../img/svg/bt.svg);
   top: 21px;
   right: 22px;
+}
+
+.header__bool-arrow {
+  width: 100px;
+  height: 100px;
+  background-color: #f5f7f9;
+  border-radius: 50%;
+  position: absolute;
+  margin-left:-50px;
+  bottom: -50px;
+  left: 50%;
+  img {
+    display: block;
+    margin: 38px auto 0;
+  }
+  z-index: 100;
 }

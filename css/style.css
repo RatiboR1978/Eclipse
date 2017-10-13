@@ -424,7 +424,8 @@ img {
 .header {
   background: url("../img/bgheader.jpg") no-repeat;
   background-size: cover;
-  padding: 70px 0 257px 0; }
+  padding: 70px 0 257px 0;
+  position: relative; }
 
 .header__menu {
   display: -webkit-box;
@@ -561,3 +562,89 @@ img {
   background-image: url(../img/svg/bt.svg);
   top: 21px;
   right: 22px; }
+
+.header__bool-arrow {
+  width: 100px;
+  height: 100px;
+  background-color: #f5f7f9;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  margin-left: -50px;
+  bottom: -50px;
+  left: 50%;
+  z-index: 100; }
+  .header__bool-arrow img {
+    display: block;
+    margin: 38px auto 0; }
+
+.latest {
+  background-color: #f5f7f9;
+  background-size: cover;
+  min-height: 421px;
+  padding-top: 115px;
+  text-align: center;
+  position: relative; }
+  .latest h2 {
+    margin-top: 0;
+    margin-bottom: 41px;
+    font-family: GothamPro-Bold, Arial, sans-serif;
+    font-size: 40px;
+    color: #333b42;
+    text-transform: uppercase; }
+  .latest p {
+    margin: 0 0 75px; }
+
+.latest__bool-arrow {
+  width: 100px;
+  height: 100px;
+  background-color: #28c8c6;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  margin-left: -50px;
+  bottom: -50px;
+  left: 50%; }
+  .latest__bool-arrow img {
+    display: block;
+    margin: 38px auto 0; }
+
+.features {
+  padding: 160px 0 152px;
+  text-align: center; }
+  .features h2 {
+    text-transform: uppercase;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 30px;
+    color: #333b42;
+    margin: 0 0 34px; }
+
+.features__wrap {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.features__circle {
+  width: 137px;
+  height: 137px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #8500d2;
+  display: block;
+  margin: 0 auto 38px; }
+  .features__circle img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 49px; }
+
+article h3 {
+  text-transform: uppercase;
+  font-family: Montserrat-Bold, Arial, sans-serif;
+  font-size: 17px;
+  color: #333b42; }
+
+article p {
+  line-height: 25px;
+  margin: 0; }
