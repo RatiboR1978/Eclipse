@@ -564,14 +564,14 @@ img {
   right: 22px; }
 
 .header__bool-arrow {
-  width: 100px;
-  height: 100px;
+  width: 114px;
+  height: 114px;
   background-color: #f5f7f9;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   position: absolute;
   margin-left: -50px;
-  bottom: -50px;
+  bottom: -64px;
   left: 50%;
   z-index: 100; }
   .header__bool-arrow img {
@@ -596,8 +596,8 @@ img {
     margin: 0 0 75px; }
 
 .latest__bool-arrow {
-  width: 100px;
-  height: 100px;
+  width: 114px;
+  height: 114px;
   background-color: #28c8c6;
   -webkit-border-radius: 50%;
           border-radius: 50%;
@@ -648,3 +648,84 @@ article h3 {
 article p {
   line-height: 25px;
   margin: 0; }
+
+.guidelines {
+  background-color: #f6f9fa;
+  padding: 137px 0 130px;
+  text-align: center;
+  position: relative;
+  border-top: 1px solid #d8e0e8; }
+  .guidelines h2 {
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 30px;
+    color: #333b42;
+    text-transform: uppercase; }
+  .guidelines p {
+    margin-bottom: 47px; }
+
+.guidelines__but {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 55px; }
+
+.guidelines__but-item {
+  padding: 20px 45px;
+  text-transform: uppercase;
+  background-color: #f6f9fa;
+  border: 1px solid #28c8c6;
+  cursor: pointer;
+  margin-left: -1px; }
+
+.guidelines__but-item--active {
+  background-color: #28c8c6;
+  color: white; }
+
+.guidelines__img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.guidelines__img-item img {
+  margin-bottom: 30px; }
+
+.guidelines__img-item a {
+  text-transform: uppercase;
+  font-family: Montserrat-Regular, Arial, sans-serif;
+  position: relative;
+  color: #333b42; }
+
+.guidelines__img-item a::before {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 14px;
+  background-image: url("../img/pointer.svg");
+  right: -70px; }
+
+.guidelines__bool-arrow {
+  width: 114px;
+  height: 114px;
+  background-color: white;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  margin-left: -50px;
+  bottom: -50px;
+  left: 50%;
+  top: -60px;
+  background: url("../img/circle.png") no-repeat;
+  background-position: 50% 100%; }
+  .guidelines__bool-arrow img {
+    display: block;
+    margin: 38px auto 0; }
