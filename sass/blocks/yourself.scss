@@ -1,0 +1,41 @@
+.yourself {
+  background: url("../img/bgyourself.jpg") no-repeat;
+  background-size: cover;
+  padding: 332px 0 324px;
+  display: flex;
+  color: white;
+  img {
+    width: 177px;
+    height: 177px;
+    margin-right: 40px;
+  }
+}
+
+.yourself__wrap {
+  display: flex;
+  position: relative;
+}
+
+.yourself__text {
+  max-width: 526px;
+  h2 {
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  p {
+    font-size: 16px;
+
+  }
+}
+
+.yourself__wrap::before {
+  position: absolute;
+  content: '';
+  width: 1010px;
+  height: 1246px;
+  background: url("../img/noutbook.png") no-repeat;
+  left: 240px;
+  top: 35px;
+}
