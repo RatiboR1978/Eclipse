@@ -738,7 +738,8 @@ article p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  color: white; }
+  color: white;
+  margin-bottom: 698px; }
   .yourself img {
     width: 177px;
     height: 177px;
@@ -769,3 +770,60 @@ article p {
   background: url("../img/noutbook.png") no-repeat;
   left: 240px;
   top: 35px; }
+
+.footer {
+  margin-bottom: 154px;
+  color: #8297a7;
+  font-size: 12px; }
+  .footer a {
+    color: #8297a7; }
+
+.footer__menu {
+  line-height: 35px;
+  width: 245px;
+  margin-top: 90px; }
+  .footer__menu ul li {
+    list-style-type: none; }
+
+.footer__menu1 {
+  padding: 0;
+  float: left;
+  margin: 0 82px 45px 0; }
+
+.footer__menu2 {
+  margin: 0; }
+
+.footer__but {
+  width: 95px;
+  height: 34px;
+  border: none;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 51px; }
+
+.footer__tweet {
+  background-color: #69b6f2; }
+
+.footer__share {
+  background-color: #3a579a;
+  color: #69b6f2; }
+
+.footer__wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.footer__social {
+  text-align: right; }
+
+.fa {
+  color: white;
+  margin-right: 15px; }
