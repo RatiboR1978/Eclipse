@@ -471,6 +471,9 @@ img {
   padding-right: 30px;
   position: relative; }
 
+.header__but:hover {
+  background-color: #8d0aff; }
+
 .header__but::before {
   position: absolute;
   content: '';
@@ -553,6 +556,9 @@ img {
   border: none;
   position: relative;
   cursor: pointer; }
+
+.header__form-but:hover {
+  background-color: #20b6c8; }
 
 .header__form-but::before {
   position: absolute;
@@ -682,8 +688,14 @@ article p {
   cursor: pointer;
   margin-left: -1px; }
 
+.guidelines__but-item:hover {
+  color: #28c8c6; }
+
 .guidelines__but-item--active {
   background-color: #28c8c6;
+  color: white; }
+
+.guidelines__but-item--active:hover {
   color: white; }
 
 .guidelines__img {
@@ -704,6 +716,9 @@ article p {
   font-family: Montserrat-Regular, Arial, sans-serif;
   position: relative;
   color: #333b42; }
+
+.guidelines__img-item a:hover {
+  color: #28c8c6; }
 
 .guidelines__img-item a::after {
   position: absolute;
@@ -790,6 +805,9 @@ article p {
   color: white;
   cursor: pointer; }
 
+.panel__trigger:hover {
+  background-color: #730cd2; }
+
 .panel__wrap {
   display: none;
   position: fixed;
@@ -805,6 +823,23 @@ article p {
   .panel__wrap img {
     width: 20px;
     cursor: pointer; }
+
+.arrowUp__up {
+  width: 50px;
+  height: 50px;
+  background-color: #919191;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  position: fixed;
+  bottom: 40%;
+  left: 5%;
+  cursor: pointer;
+  display: none; }
+
+.arrowUp__up:hover {
+  background-color: #3e3e46; }
 
 .footer {
   margin-bottom: 154px;
@@ -825,6 +860,10 @@ article p {
   float: left;
   margin: 0 82px 45px 0; }
 
+.footer__menu1 a:hover,
+.footer__menu2 a:hover {
+  color: black; }
+
 .footer__menu2 {
   margin: 0; }
 
@@ -842,9 +881,15 @@ article p {
 .footer__tweet {
   background-color: #69b6f2; }
 
+.footer__tweet:hover {
+  background-color: #5a96f2; }
+
 .footer__share {
   background-color: #3a579a;
   color: #69b6f2; }
+
+.footer__share:hover {
+  background-color: #28389a; }
 
 .footer__wrap {
   display: -webkit-box;

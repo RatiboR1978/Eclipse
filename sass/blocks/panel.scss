@@ -15,6 +15,10 @@
   cursor: pointer;
 }
 
+.panel__trigger:hover {
+  background-color: #730cd2;
+}
+
 .panel__wrap {
   display: none;
   position: fixed;

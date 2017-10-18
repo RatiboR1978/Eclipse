@@ -45,6 +45,10 @@
   position: relative;
 }
 
+.header__but:hover {
+  background-color: #8d0aff;
+}
+
 .header__but::before {
   position: absolute;
   content: '';
@@ -132,6 +136,10 @@
   border: none;
   position: relative;
   cursor: pointer;
+}
+
+.header__form-but:hover {
+  background-color: #20b6c8;
 }
 
 .header__form-but::before {
