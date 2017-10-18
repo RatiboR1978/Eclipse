@@ -50,7 +50,7 @@
     position: relative;
     color: #333b42;
   }
-  a::before {
+  a::after {
     position: absolute;
     content: '';
     width: 8px;

@@ -705,7 +705,7 @@ article p {
   position: relative;
   color: #333b42; }
 
-.guidelines__img-item a::before {
+.guidelines__img-item a::after {
   position: absolute;
   content: '';
   width: 8px;
@@ -770,6 +770,41 @@ article p {
   background: url("../img/noutbook.png") no-repeat;
   left: 240px;
   top: 35px; }
+
+.panel__trigger {
+  display: block;
+  position: fixed;
+  height: 24px;
+  background-color: #8500d2;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  top: 50%;
+  right: -67px;
+  margin: 0 auto;
+  padding: 17px 50px;
+  font-family: GothamPro-Bold, Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  cursor: pointer; }
+
+.panel__wrap {
+  display: none;
+  position: fixed;
+  top: 43%;
+  right: -67px;
+  width: 400px;
+  line-height: 30px;
+  background-color: #8500d2;
+  color: white;
+  padding: 20px 87px 20px 20px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+  .panel__wrap img {
+    width: 20px;
+    cursor: pointer; }
 
 .footer {
   margin-bottom: 154px;
