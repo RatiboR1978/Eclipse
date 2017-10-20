@@ -90,3 +90,15 @@
     margin: 38px auto 0;
   }
 }
+
+.guidelines__wrap {
+  position: relative;
+  min-height: 253px;
+}
+
+#slide4,
+#slide3,
+#slide2,
+#slide1 {
+  position: absolute;
+}
