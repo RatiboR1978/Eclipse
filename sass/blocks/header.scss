@@ -16,7 +16,10 @@
   font-size: 16px;
   color: white;
   text-transform: uppercase;
-  margin-left: 35px;
+  margin-left: 25px;
+  @media (min-width: 1135px) {
+    margin-left: 35px;
+  }
 }
 
 .header__nav-item:first-child {
@@ -90,6 +93,10 @@
 
 .header__form {
   display: flex;
+  flex-direction: column;
+  @media (min-width: 1135px) {
+    flex-direction: row;
+  }
 }
 
 .header__design,
@@ -101,6 +108,10 @@
   font-family: Montserrat-Regular, Arial, sans-serif;
   padding-left: 24px;
   margin-right: 20px;
+  margin-bottom: 10px;
+  @media (min-width: 1135px) {
+    margin-bottom: 0;
+  }
 }
 
 .header__wrap-design,
@@ -112,30 +123,39 @@
   position: absolute;
   content: '';
   top: 20px;
-  right: 45px;
+  right: 314px;
   width: 21px;
   height: 21px;
   background-image: url(../img/svg/arrowInp.svg);
+  @media (min-width: 1135px) {
+    right: 45px;
+  }
 }
 
 .header__wrap-email::before {
   position: absolute;
   content: '';
   top: 25px;
-  right: 45px;
+  right: 314px;
   width: 13px;
   height: 15px;
   background-image: url(../img/arrow.svg);
+  @media (min-width: 1135px) {
+    right: 45px;
+  }
 }
 
 .header__form-but {
-  width: 64px;
+  width: 305px;
   height: 59px;
   background-color: #28c8c6;
   border-radius: 5px;
   border: none;
   position: relative;
   cursor: pointer;
+  @media (min-width: 1135px) {
+    width: 64px;
+  }
 }
 
 .header__form-but:hover {

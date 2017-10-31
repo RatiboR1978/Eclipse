@@ -16,6 +16,9 @@ $(function () {
         } else if ($(this).scrollTop() < 2000) {
             $('.arrowUp__up').css('display', 'none');
         }
+        if ($(this).scrollTop() > 800) {
+            $('article').addClass('animated fadeInDown');
+        }
     });
 
     $('.arrowUp__up').on('click', function () {
@@ -50,12 +53,6 @@ $(function () {
         $('#slide4').delay(599).slideDown(800);
     });
 
-    $(window).on('scroll',function(){
-        if ($(this).scrollTop() > 800) {
-            $('article').addClass('animated fadeInDown');
-        }
-
-    });
 
 
 

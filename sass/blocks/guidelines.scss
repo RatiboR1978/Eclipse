@@ -1,9 +1,10 @@
 .guidelines {
   background-color: #f6f9fa;
-  padding: 137px 0 130px;
+  padding: 137px 0 200px;
   text-align: center;
   position: relative;
   border-top: 1px solid #d8e0e8;
+  min-height: 1130px;
   h2 {
     font-family: Montserrat-Bold, Arial, sans-serif;
     font-size: 30px;
@@ -12,6 +13,10 @@
   }
   p {
     margin-bottom: 47px;
+  }
+  @media (min-width: 1307px) {
+    min-height: 590px;
+    padding: 137px 0 130px;
   }
 }
 
@@ -22,12 +27,15 @@
 }
 
 .guidelines__but-item {
-  padding: 20px 45px;
+  padding: 20px 20px;
   text-transform: uppercase;
   background-color: #f6f9fa;
   border: 1px solid #28c8c6;
   cursor: pointer;
   margin-left: -1px;
+  @media (min-width: 655px) {
+    padding: 20px 45px;
+  }
 }
 
 .guidelines__but-item:hover {
@@ -45,18 +53,32 @@
 
 .guidelines__img {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 1307px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 
 .guidelines__img-item {
+  margin-right: 10px;
   img {
     margin-bottom: 30px;
   }
   a {
+    display: block;
     text-transform: uppercase;
     font-family: Montserrat-Regular, Arial, sans-serif;
     position: relative;
     color: #333b42;
+    margin-bottom: 30px;
+    @media (min-width: 1307px) {
+      display: inline;
+      margin-bottom: 0;
+    }
   }
 
   a:hover {
@@ -69,7 +91,10 @@
     width: 8px;
     height: 14px;
     background-image: url("../img/pointer.svg");
-    right: -70px;
+    right: 92px;
+    @media (min-width: 1307px) {
+      right: -70px;
+    }
   }
 }
 
@@ -101,4 +126,10 @@
 #slide2,
 #slide1 {
   position: absolute;
+  left: 50%;
+  margin-left: -204px;
+  @media (min-width: 1307px) {
+    left: 0;
+    margin-left: 0;
+  }
 }

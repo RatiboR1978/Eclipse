@@ -4,13 +4,17 @@
   padding: 332px 0 324px;
   display: flex;
   color: white;
-  margin-bottom: 698px;
+  margin-bottom: 66px;
   img {
     width: 177px;
     height: 177px;
     margin-right: 40px;
   }
+  @media (min-width: 1193px) {
+    margin-bottom: 698px;
+  }
 }
+
 
 .yourself__wrap {
   display: flex;
@@ -31,12 +35,23 @@
   }
 }
 
+
 .yourself__wrap::before {
+  display: none;
   position: absolute;
   content: '';
   width: 1010px;
   height: 1246px;
   background: url("../img/noutbook.png") no-repeat;
-  left: 240px;
+  left: 122px;
   top: 35px;
+  @media (min-width: 1193px) {
+    display: block;
+  }
+  @media (min-width: 1427px) {
+    left: 240px;
+  }
 }
+
+
+

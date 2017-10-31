@@ -28,6 +28,13 @@ img {
 }
 
 .container {
-  width: 1180px;
+  width: 599px;
   margin: 0 auto;
+  @media (min-width: 1135px) {
+    width: 1090px;
+  }
+  @media (min-width: 1300px) {
+    width: 1180px;
+  }
 }
+

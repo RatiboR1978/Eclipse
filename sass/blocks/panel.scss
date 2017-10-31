@@ -8,11 +8,14 @@
   top: 50%;
   right: -67px;
   margin: 0 auto;
-  padding: 17px 50px;
+  padding: 5px 32px;
   font-family: GothamPro-Bold, Arial, sans-serif;
   font-size: 16px;
   color: white;
   cursor: pointer;
+  @media (min-width: 655px) {
+    padding: 17px 50px;
+  }
 }
 
 .panel__trigger:hover {
