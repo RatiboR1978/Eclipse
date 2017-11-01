@@ -1253,7 +1253,7 @@ article {
   position: fixed;
   top: 43%;
   right: -67px;
-  width: 400px;
+  width: 270px;
   line-height: 30px;
   background-color: #8500d2;
   color: white;
@@ -1263,6 +1263,9 @@ article {
   .panel__wrap img {
     width: 20px;
     cursor: pointer; }
+  @media (min-width: 480px) {
+    .panel__wrap {
+      width: 400px; } }
 
 .arrowUp__up {
   width: 50px;
