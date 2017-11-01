@@ -53,7 +53,9 @@ $(function () {
         $('#slide4').delay(599).slideDown(800);
     });
 
-
+    $('.header__nav-mobile').on('click', function () {
+        $('.header__nav-mobile-list').slideToggle(700);
+    })
 
 
 

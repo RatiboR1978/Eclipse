@@ -61,7 +61,12 @@
 
 .footer__wrap {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  @media (min-width: 480px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .footer__social {
